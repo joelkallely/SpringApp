@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class App 
 {
-	@RequestMapping("/joel")
+	@RequestMapping("/")
 	String joel() {
 		return "joel";
 	}
